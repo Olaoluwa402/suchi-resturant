@@ -20,6 +20,13 @@ app.get('/', function(req, res){
 
 
 
-app.listen(3000, function(){
-	console.log('Server started');
+// connect port
+
+let port = process.env.PORT;
+if(port == null || port == " "){
+    port = 3000;
+}
+
+app.listen(port, function(){
+   console.log("Your Suci Server Has Started!");
 });
