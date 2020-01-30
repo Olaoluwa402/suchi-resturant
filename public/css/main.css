@@ -426,19 +426,18 @@ body{
 
 /* ################################## media query #####################################################*/
 @media (max-width: 576px) {
+	.height-90{
+		min-height: calc(100vh - 165.6px);
+	}
       #header{
 		min-height: calc(100vh - 165.6px) !important;
 	  }
 
 	  .header-link{
-			bottom: 18%;
+			bottom: 10%;
 		}
 
-	  .scrollTop{
-			bottom: 100px;
-			right: 8px;
-		}
-
+	 
 		.navbar{
 			padding: 20px 15px;
 		}
