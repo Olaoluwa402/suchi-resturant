@@ -15,7 +15,7 @@
 
       $('html, body').stop().animate({
         scrollTop: $(target).offset().top - 25
-      }, 3000);
+      }, 1000);
     });
 
  // Add smooth scrolling to all links
