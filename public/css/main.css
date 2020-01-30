@@ -8,7 +8,7 @@
 html{
 	scroll-behavior: smooth;
 }
-body{
+body,html{
 	font-family: 'IM Fell Double Pica', serif;
 	color: #c9c1ac;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
