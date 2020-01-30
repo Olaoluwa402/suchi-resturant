@@ -287,7 +287,9 @@ body{
 
 
 /* ########################################## About ################################################### */
-
+#about h1{
+	font-size: 2.5rem;
+}
 .about-pictures{
 	position: relative;
 }
@@ -341,12 +343,32 @@ body{
 	width: 150px;
 }
 
+.review-text h2{
+	font-size: 2.5rem;
+}
 .review-item{
 	background: rgba(255, 255, 255, .7);
 	clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%);
 }
 
 /* ########################### Team ######################################### */
+#team .card{
+	height: 350px !important;
+	overflow-y: hidden;
+}
+
+#team .card img{
+	width: 100%;
+	height: 60%;
+
+}
+
+#team .card h1{
+	font-size: 1.5rem;
+}
+#team .card h4{
+	font-size: 1rem;
+}
 .team-icon a{
 	color: #3b5998;
 	transition: all 2s ease-in-out;
@@ -376,6 +398,9 @@ body{
 	color: #d3325f;
 }
 
+#contact .card h1{
+	font-size: 1.5rem;
+}
 #contact .input-group-text{
 	background: #d3325f;
 	border-color: #d3325f;
@@ -413,7 +438,7 @@ body{
 }
 .scrollTop{
 	position: fixed;
-	bottom: 70px;
+	bottom: 78px;
 	right: 10px;
 }
 
@@ -443,6 +468,12 @@ body{
 		}
 		.navbar-brand{
 			font-size: 21px; 
+		}
+		.review-img{
+			width: 120px;
+		}
+		.review-text h2{
+			font-size: 1.5rem;
 		}
 	}
 
