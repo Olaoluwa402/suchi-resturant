@@ -5,14 +5,14 @@
 
 
 /* ############################################ info section ######################################## */
-html{
+html, body{
 	scroll-behavior: smooth;
 }
-body{
+body, html{
 	font-family: 'IM Fell Double Pica', serif;
 	color: #c9c1ac;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-	url('../img/bodybg1.jpg');
+	url('/../img/bodybg1.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -45,7 +45,7 @@ body{
 #header{
 	min-height: calc(100vh - 94px);
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-	url('../img/sushi.jpg');
+	url('/../img/sushi.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
