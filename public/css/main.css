@@ -462,7 +462,9 @@ body{
 			bottom: 10%;
 		}
 
-	 
+	 	#about h1{
+			text-align: center !important;
+		}
 		.navbar{
 			padding: 20px 15px;
 		}
