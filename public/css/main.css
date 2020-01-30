@@ -5,10 +5,10 @@
 
 
 /* ############################################ info section ######################################## */
-html, body{
+html{
 	scroll-behavior: smooth;
 }
-body, html{
+body{
 	font-family: 'IM Fell Double Pica', serif;
 	color: #c9c1ac;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -265,7 +265,7 @@ body, html{
 
 #menu{
 	background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
-	url('../img/sushi.jpg');
+	url('/../img/sushi.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
