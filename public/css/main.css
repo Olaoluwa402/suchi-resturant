@@ -8,20 +8,20 @@
 html{
 	scroll-behavior: smooth;
 }
-
-.info{
-	background-color: #c9c1ac;
-}
 body{
 	font-family: 'IM Fell Double Pica', serif;
-	overflow-x: hidden;
 	color: #c9c1ac;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
 	url('../img/bodybg1.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	overflow-x: hidden;
+}
+
+.info{
+	background-color: #c9c1ac;
 }
 
 .primary-color{
